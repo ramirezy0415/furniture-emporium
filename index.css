@@ -1,35 +1,42 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT";
-}
-header {
-  text-align: center;
-}
-
-header h1 {
-  font-size: xx-large;
   margin: 0px;
 }
 
+body {
+  background-color: white;
+}
+
+header {
+  margin-left: 15px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
 header p {
-  margin-top: 0px;
   margin-bottom: 25px;
 }
 
 .product {
-  border: 2px gray solid;
+  border: 1px gray solid;
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   background-color: #e2e2d8;
+  width: 400px;
+  display: inline-block;
 }
 
 .product h2 {
   border: 2px gray dotted;
   margin: 0px;
   padding: 5px;
+  font-size: 30px;
 }
 
 .product button {
-  background-color: #006400;
+  background-color: #014d08;
   color: white;
   border-radius: 15px;
   align-items: center;
@@ -47,7 +54,7 @@ header p {
 .sale-price {
   font-size: 30px;
   color: green;
-  margin: auto;
+  margin-top: 10px;
 }
 
 .sale-price s {
