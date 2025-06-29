@@ -1,6 +1,6 @@
 * {
-  font-family: "Gill Sans", "Gill Sans MT";
   margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT";
 }
 
 body {
@@ -8,13 +8,12 @@ body {
 }
 
 header {
-  margin-left: 15px;
-  margin-bottom: 25px;
   border: 2px black solid;
+  margin-bottom: 10px;
   padding: 2px;
+  text-align: center;
   background-color: #014d08;
   color: white;
-  text-align: center;
 }
 
 header h1 {
@@ -25,38 +24,37 @@ header h1 {
   border: 1px gray solid;
   margin: 10px;
   padding: 10px;
-  background-color: #e2e2d8;
   width: 400px;
   display: inline-block;
+  background-color: #e2e2d8;
 }
 
 .product h2 {
-  border: 2px gray dotted;
+  border: 2px black dotted;
+  margin-bottom: 5px;
   padding: 5px;
   font-size: 30px;
 }
 
 .product button {
-  background-color: #014d08;
-  color: white;
-  border-radius: 15px;
-  align-items: center;
   width: 100%;
   height: 30px;
+  border-radius: 15px;
   font-size: 15px;
+  background-color: #014d08;
+  color: white;
 }
 
 .product button:hover {
   background-color: #6bda6b;
   color: black;
-  border-radius: 10px;
 }
 
 .price {
+  margin-top: 10px;
   font-size: 30px;
   font-weight: lighter;
   color: green;
-  margin-top: 10px;
 }
 
 .price s {
