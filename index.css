@@ -9,14 +9,16 @@ body {
 
 header {
   margin-left: 15px;
+  margin-bottom: 25px;
+  border: 2px black solid;
+  padding: 2px;
+  background-color: #014d08;
+  color: white;
+  text-align: center;
 }
 
 header h1 {
   font-size: 50px;
-}
-
-header p {
-  margin-bottom: 25px;
 }
 
 .product {
@@ -30,7 +32,6 @@ header p {
 
 .product h2 {
   border: 2px gray dotted;
-  margin: 0px;
   padding: 5px;
   font-size: 30px;
 }
@@ -42,7 +43,7 @@ header p {
   align-items: center;
   width: 100%;
   height: 30px;
-  font-size: medium;
+  font-size: 15px;
 }
 
 .product button:hover {
@@ -51,13 +52,14 @@ header p {
   border-radius: 10px;
 }
 
-.sale-price {
+.price {
   font-size: 30px;
+  font-weight: lighter;
   color: green;
   margin-top: 10px;
 }
 
-.sale-price s {
+.price s {
   font-size: 20px;
   color: #454545;
 }
